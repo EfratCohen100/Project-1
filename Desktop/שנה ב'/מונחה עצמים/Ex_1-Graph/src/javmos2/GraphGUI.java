@@ -242,7 +242,7 @@ public final class GraphGUI {
    
       public static void main(String[] args) {
          
-      	    Polynom p1= new Polynom("0.2x^4-1.5x^3+3.0x^2-x+5");
+      	    Polynom p1= new Polynom("0.2x^4-1.5x^3+3.0x^2-x-5");
       	     Graph(p1.toString());
       	     
       	    //double area=p1.AreaGraphUnderX(-2, 6, 0.01);
